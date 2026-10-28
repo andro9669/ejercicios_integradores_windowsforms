@@ -1,0 +1,20 @@
+﻿DB
+	Tabla prodcutos: id, nombre, precio y stock
+
+UI
+	txtbox: nombre, precio y stock
+	btn: guardar
+	dgv: productos
+	label: total
+
+Clase producto
+	propiedades: nombre, precio y cantidad
+	metodo: calcularValor() => precio * cantidad
+
+Interaccion con la DB
+	Guardar cada producto en la DB y mostrar los registros en el dgv
+	Al listar, calcular y mostrar el valor total sumando calcularTotal()
+
+Uso
+	Registrar producto: completar los campos y presionar guardar
+	Consultar productos: presionar listar y verlos
